@@ -1,0 +1,12 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+}
+
+.hidden {
+    display: none !important;
+}
+

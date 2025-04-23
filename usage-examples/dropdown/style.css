@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-btn,
+#food-options,
+.food-option {
+    border: none;
+    border-radius: 1rem;
+}
+
+.food-btn {
+    background-color: cornflowerblue;    
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+#food-options {
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 5px rgb(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.food-option {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.food-option:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: white;
+}
