@@ -1,5 +1,5 @@
 import './style.css'
-import { createDropdown } from '../../src/components/'
+import { createDropdown } from '../../src/components/dropdown'
 
 const container = document.querySelector('#favourite-food') as HTMLDivElement;
 const button = document.querySelector('.food-btn')as HTMLButtonElement;
