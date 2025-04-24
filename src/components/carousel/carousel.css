@@ -1,0 +1,77 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    display: none;
+}
+.frame img {
+    width: 100%;
+    height: auto;
+}
+
+.frame.active {
+    display: block;
+}
+
+.previous,
+.next,
+.dots {
+    position: absolute;
+    z-index: 10;
+    
+}
+
+.previous,
+.next {
+    align-self: center;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.previous:hover,
+.next:hover {
+    background-color: rgba(119, 119, 119, 0.5);
+}
+
+.dots {
+    bottom: 2%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dot {
+    background-color: black;
+    aspect-ratio: 1;
+    width: 1rem;
+    height: auto;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.dot:hover,
+.dot.selected {
+    background-color:rgb(45, 45, 45);
+}
+
+.previous {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.previous img,
+.next img {
+    width: 4rem;
+}
+
+.previous img {
+    transform: rotate(180deg);
+}
