@@ -1,2 +1,1 @@
-export * from './components/dropdown/'
-export * from './components/DivGenerator/DivGenerator'
+export * from './components/'
