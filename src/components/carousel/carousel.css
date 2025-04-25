@@ -1,77 +1,76 @@
 .carousel {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .frame {
-    display: none;
+  display: none;
 }
 .frame img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .frame.active {
-    display: block;
+  display: block;
 }
 
 .previous,
 .next,
 .dots {
-    position: absolute;
-    z-index: 10;
-    
+  position: absolute;
+  z-index: 10;
 }
 
 .previous,
 .next {
-    align-self: center;
-    cursor: pointer;
-    border-radius: 1rem;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 1rem;
 }
 
 .previous:hover,
 .next:hover {
-    background-color: rgba(119, 119, 119, 0.5);
+  background-color: rgba(119, 119, 119, 0.5);
 }
 
 .dots {
-    bottom: 2%;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  bottom: 2%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .dot {
-    background-color: black;
-    aspect-ratio: 1;
-    width: 1rem;
-    height: auto;
-    border-radius: 100%;
-    cursor: pointer;
+  background-color: black;
+  aspect-ratio: 1;
+  width: 1rem;
+  height: auto;
+  border-radius: 100%;
+  cursor: pointer;
 }
 
 .dot:hover,
 .dot.selected {
-    background-color:rgb(45, 45, 45);
+  background-color: rgb(45, 45, 45);
 }
 
 .previous {
-    left: 0;
+  left: 0;
 }
 
 .next {
-    right: 0;
+  right: 0;
 }
 
 .previous img,
 .next img {
-    width: 4rem;
+  width: 4rem;
 }
 
 .previous img {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }

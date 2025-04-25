@@ -1,13 +1,12 @@
 .dropdown {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-content {
-    position: absolute;
-    z-index: 1000;
+  position: absolute;
+  z-index: 1000;
 }
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
-
