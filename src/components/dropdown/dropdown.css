@@ -4,6 +4,7 @@
 
 .dropdown-content {
     position: absolute;
+    z-index: 1000;
 }
 
 .hidden {
